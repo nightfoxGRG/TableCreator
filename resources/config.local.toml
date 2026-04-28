@@ -1,0 +1,13 @@
+# Локальный конфиг для чувствительных данных.
+# Скопируйте в config.local.toml и заполните своими значениями.
+# Применяется только при APP_ENV=local.
+# НЕ коммитить в git!
+
+[database]
+host     = "localhost"
+port     = 5432
+name     = "data_pipeline_pro"
+user     = "user"
+password = "password"
+
+
